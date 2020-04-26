@@ -3,7 +3,23 @@
     border: 10px solid chocolate;
 }
 
-a.bg-dark
+.jumbotron a.bg-dark
 {
-    background-color: rgb(163, 139, 144);
+    background-color: rgb(255, 0, 55);
+}
+
+.about h2.bg-dark
+{
+    background-color: darkgreen;
+    width:max-content;
+}
+.about hr
+{
+    width: inherit;
+    border-top: 10px solid  #666;
+}
+
+section
+{
+    min-height: 600px;
 }
