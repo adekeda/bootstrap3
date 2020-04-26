@@ -8,10 +8,11 @@
     background-color: rgb(255, 0, 55);
 }
 
-.about h2.bg-dark
+.about a.bg-dark
 {
-    background-color: darkgreen;
-    width:max-content;
+    background-color: rgb(206, 206, 206);
+    border : 10px solid rgb(206, 206, 206);
+    
 }
 .about hr
 {
