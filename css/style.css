@@ -1,3 +1,11 @@
+html
+{position: relative;
+}
+
+body
+{
+    margin-bottom: 100px;
+}
 .jumbotron img {
     width: 300px;
     border: 10px solid chocolate;
@@ -16,11 +24,40 @@
 }
 .about hr
 {
-    width: inherit;
+    width: auto;
     border-top: 10px solid  #666;
 }
 
 section
 {
-    min-height: 600px;
+    min-height: 700px;
+}
+
+.portofolio a.bg-dark
+{
+    background-color: rgb(206, 206, 206);
+    border : 10px solid rgb(206, 206, 206);
+}
+
+.portofolio  
+{
+    background-color: rgb(240, 240, 240);
+}
+
+footer
+{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 100px;
+    background-color: #333;
+    color: #999999;
+    padding-top: 30px;
+
+}
+
+footer p i
+{
+    color:salmon;
+
 }
