@@ -1,6 +1,14 @@
 //event pada saat link di link
-$(".page-scroll").on ("click",function(){
+$(".page-scroll").on ("click",function(e){
 
-    console.log("ok");
-
+    //ambil isi href
+    var tujuan = $(this).attr('href');
+    //tangkap elemen
+    var elemenTujuan = $(tujuan);
+    
+   $("html,body").animate({
+       scrollTop : elemenTujuan.offset().top -50
+   })
+    
+    e.preventDefault();
 });
