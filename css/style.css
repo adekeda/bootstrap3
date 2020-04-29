@@ -15,6 +15,11 @@ body
     background-attachment: fixed;
     background-size: cover;
     background-position: 0 -10px;
+    color: #0f0f0f;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+
 
 .jumbotron img {
     width: 300px;
@@ -22,11 +27,15 @@ body
 }
 
 
-.jumbotron a.bg-dark
+.jumbotron h1.bg-dark
 {
     background-color: rgb(255, 0, 55);
 }
 
+.jumbotron p
+{
+    background-color: rgb(255, 0, 55);
+}
 section
 {
     min-height: 700px;
