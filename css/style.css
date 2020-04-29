@@ -10,7 +10,11 @@ body
 }
 
 .jumbotron {
+   
     background-image: url("../img/kantorPLN.jpg");
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: 0 -10px;
 
 .jumbotron img {
     width: 300px;
